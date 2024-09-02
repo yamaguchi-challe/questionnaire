@@ -5,12 +5,12 @@ include("funcs.php");
 $name = $_POST["name"];
 $mail = $_POST["mail"];
 $age = $_POST["age"];
-$sex = $_POST["sex"];
+$gender = $_POST["gender"];
 $eval = $_POST["eval"];
 $impression = $_POST["impression"];
 
 // 作成日時,名前,メールアドレス,年齢,性別,睡眠時間
-$str = date("Y-m-d H:i:s").",".$name.",".$mail.",".$age.",".$sex.",".$eval.",".$impression;
+$str = date("Y-m-d H:i:s").",".$name.",".$mail.",".$age.",".$gender.",".$eval.",".$impression;
 //File書き込み
 $file = fopen("data/data.txt","a");	// ファイル読み込み
 fwrite($file, $str."\n");

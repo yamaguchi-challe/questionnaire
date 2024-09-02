@@ -12,26 +12,26 @@
 		<p class="Form-Item-Label">
 		  <span class="Form-Item-Label-Required">必須</span>お名前
 		</p>
-		<input type="text" class="Form-Item-Input" placeholder="例）山田太郎" name="name">
+		<input type="text" class="Form-Item-Input" placeholder="例）山田太郎" name="name" required>
 	  </div>
 	  <div class="Form-Item">
 		<p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
-		<input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com" name="mail">
+		<input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com" name="mail" required>
 	  </div>
 	  <div class="Form-Item">
 		<p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>年齢</p>
-		<input type="number" class="Form-Item-Input" name="age">
+		<input type="number" class="Form-Item-Input" name="age" required>
 	  </div>
 	  <div class="Form-Item">
 		<p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>性別</p>
-		<input type="radio" id="man" name="sex" value="男性">
+		<input type="radio" id="man" name="gender" value="男性" required>
 		<label for="man">男性</label>
-		<input type="radio" id="woman" name="sex" value="女性">
+		<input type="radio" id="woman" name="gender" value="女性">
 		<label for="woman">女性</label><br>
 	  </div>
 	  <div class="Form-Item">
 		<p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>満足度</p>
-		<input type="radio" name="eval" value="5">
+		<input type="radio" name="eval" value="5" required>
 		<label for="man">5</label>
 		<input type="radio" name="eval" value="4">
 		<label for="woman">4</label>
@@ -44,7 +44,8 @@
 	  </div>
 	  <div class="Form-Item">
 		<p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>感想</p>
-		<input type="text" class="Form-Item-Input" name="impression">
+		<!-- <input type="text" class="Form-Item-Input" name="impression" required> -->
+		<textarea class="Form-Item-Textarea" name="impression" required></textarea>
 	  </div>
 	  <input type="submit" class="Form-Btn" value="送信">
 	</div>
