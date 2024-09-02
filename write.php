@@ -29,7 +29,7 @@ fclose($file);
 <h1>アンケートの回答ありがとうございました。</h1>
 <h2 class="center">次回の講義もよろしくお願いします。</h2>
 
-<a href="post.php">戻る</a></li>
+<a href="index.php">戻る</a></li>
 
 </body>
 </html>

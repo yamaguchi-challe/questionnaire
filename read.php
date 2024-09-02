@@ -43,7 +43,7 @@ fclose($f_handle);
 </head>
 <body>
 
-<a href="post.php">戻る</a>
+<a href="index.php">戻る</a>
 
 </body>
 </html>
